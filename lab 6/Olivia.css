@@ -1,0 +1,19 @@
+body{
+    background-color:#A6C2E0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: #ffb7c5;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: .25rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+nav>a{
+    color: #3D5168;
+}
+main>h2{
+    color: #C16F70;
+    text-align: center;
+}
