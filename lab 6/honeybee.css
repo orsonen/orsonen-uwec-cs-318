@@ -1,0 +1,58 @@
+body{
+    background-color:#A6C2E0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-image: url(https://preview.redd.it/or3-you-seem-pretty-sad-for-a-girl-so-in-love-v0-rzxj39s2warg1.png?width=640&crop=smart&auto=webp&s=ceddb98af61cecd2254a4b7ba463eee0690fc919);
+    background-repeat:round;
+    background-size: 535px;
+}
+header{
+    background-color: #A6C2E0;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    text-align:center;
+}
+header>h1{
+    color: #C16F70;
+    margin-top: 0;
+}
+header>h2{
+    color: #C16F70;
+    padding-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+header>h2>a{
+    color: #C16F70;
+}
+header>nav{
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+header>nav>a{
+    color:#C16F70;
+    font-size: large;
+    background-color: #ffb7c5;
+    text-decoration: none;
+    padding: 1rem;
+}
+header>nav>a:hover{
+    background-color: #A6C2E0;
+    color: #ffb7c5;
+    border: 2px solid #ffb7c5;
+}
+.center-img{
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+}
+main>h2{
+    text-align:center;
+}
+main>h2>a{
+    color: #624b81;
+}

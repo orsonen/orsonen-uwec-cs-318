@@ -2,6 +2,8 @@ body{
     background-color:#A6C2E0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    background-image: url(https://kykernel.com/wp-content/uploads/2023/09/GUTSreviewgraphicRESIZED-1.png);
+    background-position: top;
 }
 header{
     background-color: #ffb7c5;
@@ -39,58 +41,14 @@ header>nav>a:hover{
     color: #A6C2E0;
     border: 2px solid #A6C2E0;
 }
-main>h2{
-    color: #C16F70;
-    text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
-main>h2>a{
-    color: #C16F70;
-}
-main>div>h3{
-    margin-bottom: 5px;
-}
-main>div>h3>nav>a{
-    background-color:#624B81;
-    color: #ffb7c5;
-    text-decoration: none;
-    padding: 1rem;
-}
-main>div>h3>nav>a:hover{
-    background-color: #A6C2E0;
-    color: #C16F70;
-    border: 2px solid #624B81;
-}
-main>div>h3>nav{
-    padding-bottom: 1rem;
-    padding-left: 1;
-    padding-right: 0;
-    padding-top: 0;
-}
-main>div{
-    font-size: larger;
-    color:#624B81 ;
-    text-align: center;
-}
-main>div>p{
-    font-size: medium;
-    color: #C16F70;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold; 
-    margin-top: 0;
-}
 .center-img{
     display: block;
     margin: auto;
     padding-top: 1rem;
 }
-.center-video{
-    display: block;
-    margin: auto;
-    padding-bottom: 2rem;
+main>h2{
+    text-align: center;
 }
-footer>h3{
-    color: #624B81;
-    text-align:center;
+main>h2>a{
+    color: #ffb7c5;
 }
