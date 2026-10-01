@@ -64,8 +64,8 @@ main img{
     }
     header{
         flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items:baseline ;
+        justify-content: space-between;
+        align-items:flex-end;
     }
     .about-me{
         display: flex;
