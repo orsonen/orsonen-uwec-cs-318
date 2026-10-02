@@ -21,3 +21,54 @@ nav>a:hover{
     color: #A33B20;
     text-decoration: underline;
 }
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:2;
+}
+.animal-background{
+    position: fixed;
+    top: -12rem;
+    width: 200%;
+    left: -51%;
+    height: 50rem;
+    z-index: -1;
+    background-image:url(https://webelements-cs318.s3.us-east-2.amazonaws.com/animal.jpg);
+    background-size:cover;
+}
+section>h2{
+    text-align: center;
+    padding: 13rem 0;
+    text-shadow: 2px 2px 2px #27213c;
+    background-size: cover;
+    margin: 0;
+}
+section{
+    background-color: #A33B20;
+}
+.animals{
+    background-color: transparent;
+}
+.sloth>h2{
+    background-image: url(https://webelements-cs318.s3.us-east-2.amazonaws.com/sloth.jpg);
+}
+.elephant>h2{
+    background-image: url(https://webelements-cs318.s3.us-east-2.amazonaws.com/elephant.jpg);
+}
+.owl>h2{
+    background-image: url(https://webelements-cs318.s3.us-east-2.amazonaws.com/owl.jpg);
+}
+article{
+    padding: 1rem;
+}
+section span{
+    position: absolute;
+    top: 15rem;
+    font-size: 2rem;
+    left:calc(50% -11px);
+}
+section>h2{
+    position: relative;
+}
