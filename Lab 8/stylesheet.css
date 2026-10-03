@@ -26,7 +26,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:2;
+    z-index: 1;
 }
 .animal-background{
     position: fixed;
@@ -67,8 +67,64 @@ section span{
     position: absolute;
     top: 15rem;
     font-size: 2rem;
-    left:calc(50% -11px);
+    left:calc(50% - 11px);
 }
 section>h2{
     position: relative;
+}
+.accordion{
+    cursor: pointer;
+}
+article{
+    display: none;
+}
+article.show{
+    display: block;
+}
+section span{
+    transform: rotate(180deg);
+}
+span.rotate{
+    transform: rotate(0);
+}
+.sidelink{
+    background-color: #27213c;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.sidelink{
+    position: fixed;
+    transform: rotate(90deg);
+    z-index: 1;
+    top: 30rem;
+    right: -85px;
+}
+section>h2{
+    border-bottom: 2rem solid #e2512d;
+}
+@media (min-width:1000px){
+    .animal-background{
+        height: 100rem;
+        top: -25%;
+    }
+    section>h2{
+        padding: 23rem 0;
+        font-size: 3rem;
+        background-position: center;
+    }
+    section span{
+        font-size: 4rem;
+        top: 26rem;
+        left:calc(50% - 22px);
+    }
+    nav{
+        position: absolute;
+        top: 1rem;
+        left:20px;
+    }
+    article{
+        max-width: 60rem;
+        margin: 0 auto;
+    }
 }
