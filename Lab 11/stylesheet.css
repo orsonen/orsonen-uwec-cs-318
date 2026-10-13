@@ -53,12 +53,22 @@ main>h2{
 main>h3{
     font-size:x-large;
 }
+.centered-container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding:20px;
+}
+.floated-image{
+    float: right;
+    height:auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
 main>h3>h4>div>p{
     max-width: 1000px;
     margin: 0 auto;
     text-align: center; 
     margin-left: 10rem;
-    margin-right: auto;
 }
 .parent-container{
     text-align: left;
