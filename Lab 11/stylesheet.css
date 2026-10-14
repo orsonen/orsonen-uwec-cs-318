@@ -53,37 +53,32 @@ main>h2{
 main>h3{
     font-size:x-large;
 }
-.centered-container{
-    max-width: 500px;
-    margin: 0 auto;
-    padding:20px;
+.centered-image{
+    display:block;
+    max-width: 100%;
+    height: auto;
 }
-.floated-image{
-    float: right;
-    height:auto;
-    margin-left: 20px;
-    margin-bottom: 10px;
+.page-layout{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:auto;
+    justify-items: center;
+    gap: 20px;
+    max-width: 2000px;
+    max-width: 0 auto;
+    margin-top: -10rem;
+    padding-top: 10rem;
 }
-main>h3>h4>div>p{
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center; 
-    margin-left: 10rem;
-}
-.parent-container{
-    text-align: left;
-    margin-left: 0;
-    margin-right: 60rem;
+.text-column{
     text-align: center;
 }
-@media (max-width:1440px){
-    nav{
-        flex-basis: unset;
-    }
-    header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+section{
+    background-color:#634321;
+    color:#fff8e7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem; 
 }
-    
