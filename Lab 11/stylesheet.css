@@ -1,18 +1,13 @@
-html{
-    height: 100%;
-}
 body{
     background-color:#93C572;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    width: 100%;
 }
 header{
     background-color:#634321;
     color:#fff8e7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+    width: auto;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
@@ -24,6 +19,12 @@ h1{
 header>img{
     width: 23rem;
     max-width: 100%;
+    padding-bottom: 1rem;
+}
+header>p{
+    color: #93C572;
+    font-size: small;
+    text-align: right;
 }
 nav>a{
     color: #fff8e7;
@@ -39,19 +40,21 @@ header{
 }
 nav{
     flex-basis: 100%;
-    text-align: center;
+    text-align: right;
 }
-main{
-    padding: 1rem;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-main>h2{
+.Menu>h2{
     color: #634321;
     font-size:xx-large;
+    text-align: center;
 }
-main>h3{
+.Menu>h3{
     font-size:x-large;
+}
+.left-text{
+    text-align: center;
+}
+.right-text{
+    text-align: center;
 }
 .centered-image{
     display:block;
@@ -69,10 +72,7 @@ main>h3{
     margin-top: -10rem;
     padding-top: 10rem;
 }
-.text-column{
-    text-align: center;
-}
-section{
+.Drinks{
     background-color:#634321;
     color:#fff8e7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -80,5 +80,16 @@ section{
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    padding-right: 1rem; 
+    padding-right: 1rem;
+}
+.Drinks>h2{
+    text-align: left;
+    font-size: xx-large;
+}
+.Drinks>h3>p{
+    text-align: right;
+}
+.flex-container{
+    display: flex;
+    gap: 30px;
 }
