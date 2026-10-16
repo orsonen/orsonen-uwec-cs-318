@@ -1,5 +1,5 @@
 body{
-    background-color:#93C572;
+    background-color:#B2EAA2;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ header>img{
     padding-bottom: 1rem;
 }
 header>p{
-    color: #93C572;
+    color: #D0F0C0;
     font-size: small;
     text-align: right;
 }
@@ -47,19 +47,23 @@ nav{
     font-size:xx-large;
     text-align: center;
 }
-.Menu>h3{
-    font-size:x-large;
-}
 .left-text{
     text-align: center;
+    margin-top: 0;
+    color: #361E0F;
+    font-size: large;
 }
 .right-text{
     text-align: center;
+    margin-top: 0;
+    color: #361E0F;
+    font-size: large;
 }
 .centered-image{
     display:block;
     max-width: 100%;
     height: auto;
+    margin: 4rem;
 }
 .page-layout{
     display: grid;
@@ -73,7 +77,7 @@ nav{
     padding-top: 10rem;
 }
 .Drinks{
-    background-color:#634321;
+    background-color: #B07A45;
     color:#fff8e7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
@@ -88,8 +92,48 @@ nav{
 }
 .Drinks>h3>p{
     text-align: right;
+    
 }
 .flex-container{
     display: flex;
     gap: 30px;
+    background-color: #634321;
+}
+.flex-container>img{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+}
+.Specialty{
+    margin: 2rem;
+    margin-top: 0;
+}
+.Specialty>h3{
+    color: #B2EAA2;
+    font-size:x-large;
+}
+.Specialty>p{
+    color: #fff8e7;
+    font-size: large;
+}
+.Beer{
+    margin: 2rem;
+    margin-top: 0;
+}
+.Beer>h3{
+    color: #B2EAA2;
+    font-size: x-large;
+}
+.Beer>p{
+    color: #fff8e7;
+    font-size: large;
+}
+hr{
+    height: 130px;
+    background-color:#B07A45;
+    border: none;
+    margin: 0;
 }
