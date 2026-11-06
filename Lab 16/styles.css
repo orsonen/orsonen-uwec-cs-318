@@ -4,9 +4,6 @@ body{
     color: #fff;
     font-family: 'Roboto Mono', monospace;
 }
-img{
-    background-color: rgb(9,2,29);
-}
 header{
     background: linear-gradient(180deg, rgba(9,2,29,1) 0%, rgba(9,2,29,0) 100%);
     position: fixed;
@@ -27,6 +24,12 @@ header a:hover{
     overflow: hidden;
     padding: 0;
 }
+.cat{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 30%;
+}
 .rover{
     width: 20rem;
     height: 20rem;
@@ -40,4 +43,129 @@ header a:hover{
     height: 5rem;
     position: absolute;
     left: 30%;
+}
+.mars{
+    position: absolute;
+    width: 100%;
+    height: 10.5rem;
+    background-color: #913a25;
+    border-top: 1rem solid #d15f44;
+    bottom: 0;
+}
+.rover:after{
+    content: url(Images/dish.svg);
+    width: 6rem;
+    height: 6rem;
+    position:absolute;
+    left: 2.25rem;
+    top: 1.6rem;
+}
+.mars h1{
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.cat{
+    animation:moveUp 3s ease-in-out infinite alternate;
+}
+@keyframes moveUp{
+    from{
+        bottom: 0;
+        transform: translateY(100px);
+    }
+    to{
+        bottom: 85%;
+        transform: translateY(0);
+    }
+}
+.planet{
+    animation: rise 10s ease-in-out 1 forwards;
+}
+@keyframes rise{
+    from{
+        bottom: 0;
+        transform: rotate(0)scale(1);
+    }
+    to{
+        bottom: 75%;
+        transform: rotate(180deg)scale(2);
+    }
+}
+.rover:after{
+    z-index: 1;
+    animation: rotate 2s linear infinite alternate;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(-33deg);
+    }
+}
+.rover{
+    z-index: 1;
+    animation: slide-horizontal 3s ease-in-out 0.5s infinite alternate;
+}
+@keyframes slide-horizontal{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(900px);
+    }
+}
+.rover:hover{
+    animation-play-state: paused;
+}
+header{
+    z-index: 3;
+}
+.mars{
+    z-index: 2;
+}
+section{
+    padding: 1rem;
+}
+h2{
+    color: #d15f44;
+    margin-top: 5rem;
+}
+.robots{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.robots figure{
+    justify-self: center;
+}
+iframe{
+    display: block;
+    margin: 1rem auto 3rem;
+    max-width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr;
+}
+.grid hr{
+    grid-area: 1/2/10/3;
+}
+.grid p{
+    margin: 1rem;
+}
+.grid h3{
+    margin: 1rem;
+    justify-self: right;
+}
+.maps{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+figcaption,h3{
+    transition: color .2s ease-in-out;
+}
+.figcaption:hover,h3:hover{
+    color: #d15f44;
 }
